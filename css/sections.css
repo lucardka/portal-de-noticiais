@@ -15,7 +15,7 @@ section header {
     }
 
     &:hover span {
-      background-image: url(../assets/icons/ArrowRight-Hover\).svg);
+      background-image: url(../assets/icons/ArrowRight-Hover.svg);
     }
   }
 }
@@ -104,6 +104,11 @@ section header {
 
 #aside {
   grid-area: aside;
+  padding-left: 24px;
+
+  img {
+    border-radius: 5px;
+  }
 }
 
 #more {
