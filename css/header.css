@@ -17,8 +17,10 @@
 }
 
 #secondary {
+  margin-inline: 0px;
   padding-block: 14px;
-  border: solid 1px var(--stroker-color);
-  border-inline: none;
+  border-top: solid 1px var(--stroker-color);
+  border-bottom: solid 1px var(--stroker-color);
+
   justify-content: space-between;
 }
